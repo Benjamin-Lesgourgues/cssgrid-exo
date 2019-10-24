@@ -5,8 +5,7 @@ https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout/Les_concepts_de_ba
 /* mise en place de la grille */
 #basedelagrille{
     display: grid;
-    grid-template-columns: minmax(auto);
-    grid-template-rows: minmax(auto);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 150px;
     /* configuration de la grille en 3 colonnes */
 }
